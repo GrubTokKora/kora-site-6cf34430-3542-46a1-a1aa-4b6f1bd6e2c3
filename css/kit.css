@@ -923,8 +923,8 @@ button { font-family: inherit; }
   color: var(--roast);
 }
 .gd-full-menu__nav-link.is-active {
-  background: var(--paper);
-  color: var(--deli-red);
+  background: var(--deli-red);
+  color: var(--cream-light);
   font-weight: 700;
   border-left-color: var(--deli-red);
 }
@@ -946,6 +946,7 @@ button { font-family: inherit; }
 .gd-full-menu__items {
   display: grid;
   gap: var(--sp-4);
+  padding-left: var(--sp-3);
 }
 .gd-menu-item {
   display: flex;
