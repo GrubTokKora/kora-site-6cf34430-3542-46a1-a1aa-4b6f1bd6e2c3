@@ -34,7 +34,6 @@ function renderHeader() {
         </a>
         <nav class="gd-header__nav" aria-label="Primary">
           <a href="#menu">Menu</a>
-          <a href="#specials">Specials</a>
           <a href="#visit">Visit</a>
           <a href="#about">About</a>
         </nav>
@@ -46,7 +45,6 @@ function renderHeader() {
       </div>
       <nav id="gd-mobile-nav" class="gd-header__drawer" aria-label="Mobile" hidden>
         <a href="#menu">Menu</a>
-        <a href="#specials">Specials</a>
         <a href="#visit">Visit</a>
         <a href="#about">About</a>
         <a href="tel:+12032746442" class="gd-header__drawer-phone">${iconPhone()} 203.274.6442</a>
@@ -120,7 +118,7 @@ function renderFooter() {
             <h4>Contact</h4>
             <ul>
               <li><a href="tel:+12032746442">203.274.6442</a></li>
-              <li><a href="mailto:hi@gussdeli.com">hi@gussdeli.com</a></li>
+              <li><a href="mailto:gusdelict@gmail.com">gusdelict@gmail.com</a></li>
               <li><a href="#">Instagram</a></li>
               <li><a href="#">Facebook</a></li>
             </ul>
