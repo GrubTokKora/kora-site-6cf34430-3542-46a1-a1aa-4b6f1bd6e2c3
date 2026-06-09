@@ -119,8 +119,8 @@ function renderFooter() {
             <ul>
               <li><a href="tel:+12032746442">203.274.6442</a></li>
               <li><a href="mailto:gusdelict@gmail.com">gusdelict@gmail.com</a></li>
-              <li><a href="#">Instagram</a></li>
-              <li><a href="#">Facebook</a></li>
+              <li><a href="https://www.instagram.com/gusdelistamford?igsh=MTR2bGx6bnRpcTRnMA==" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+              <li><a href="https://www.facebook.com/share/18v8XLBtJm/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">Facebook</a></li>
             </ul>
           </div>
         </nav>
@@ -132,8 +132,8 @@ function renderFooter() {
         <span>© 2024 Gus's Deli · Stamford, CT</span>
         <span class="script">— Thanks, see you next time. —</span>
         <span class="gd-footer__social">
-          <a href="#" aria-label="Instagram">${iconInstagram()}</a>
-          <a href="#" aria-label="Facebook">${iconFacebook()}</a>
+          <a href="https://www.instagram.com/gusdelistamford?igsh=MTR2bGx6bnRpcTRnMA==" target="_blank" rel="noopener noreferrer" aria-label="Instagram">${iconInstagram()}</a>
+          <a href="https://www.facebook.com/share/18v8XLBtJm/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" aria-label="Facebook">${iconFacebook()}</a>
         </span>
       </div>
     </footer>
