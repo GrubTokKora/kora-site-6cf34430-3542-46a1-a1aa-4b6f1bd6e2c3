@@ -39,7 +39,7 @@ function renderHeader() {
         </nav>
         <div class="gd-header__cta">
           <a href="tel:+12032746442" class="gd-header__phone">${iconPhone()} 203.274.6442</a>
-          <button type="button" class="gd-btn gd-btn--primary gd-btn--md"><span class="gd-btn__icon">${iconArrow()}</span><span>Order Pickup</span></button>
+          <a href="https://guss-deli-stamford.cloveronline.com" target="_blank" rel="noopener noreferrer" class="gd-btn gd-btn--primary gd-btn--md"><span class="gd-btn__icon">${iconArrow()}</span><span>Order Online</span></a>
         </div>
         <button type="button" aria-label="Open menu" aria-expanded="false" aria-controls="gd-mobile-nav" class="gd-iconbtn gd-header__hamburger">${iconMenu()}</button>
       </div>
@@ -48,7 +48,7 @@ function renderHeader() {
         <a href="#visit">Visit</a>
         <a href="#about">About</a>
         <a href="tel:+12032746442" class="gd-header__drawer-phone">${iconPhone()} 203.274.6442</a>
-        <button type="button" class="gd-btn gd-btn--primary gd-btn--md gd-header__drawer-cta"><span class="gd-btn__icon">${iconArrow()}</span><span>Order Pickup</span></button>
+        <a href="https://guss-deli-stamford.cloveronline.com" target="_blank" rel="noopener noreferrer" class="gd-btn gd-btn--primary gd-btn--md gd-header__drawer-cta"><span class="gd-btn__icon">${iconArrow()}</span><span>Order Online</span></a>
       </nav>
     </header>
   `;
