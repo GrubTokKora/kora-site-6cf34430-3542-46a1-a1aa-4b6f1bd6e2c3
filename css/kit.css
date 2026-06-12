@@ -948,6 +948,12 @@ button { font-family: inherit; }
   padding-bottom: var(--sp-3);
   border-bottom: 2px solid var(--stroke-2);
 }
+.gd-full-menu__category-description {
+  font-size: 15px;
+  color: var(--roast-soft);
+  margin: calc(-1 * var(--sp-3)) 0 var(--sp-5) var(--sp-3);
+  line-height: 1.5;
+}
 .gd-full-menu__items {
   display: grid;
   gap: var(--sp-4);
