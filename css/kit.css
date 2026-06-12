@@ -1015,3 +1015,15 @@ button { font-family: inherit; }
     margin-top: calc(-1 * var(--sp-7));
   }
 }
+
+.gd-full-menu__subcategory-title {
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--roast);
+  margin: var(--sp-6) 0 var(--sp-4) var(--sp-3);
+  padding-bottom: var(--sp-2);
+  border-bottom: 1.5px solid var(--stroke-1);
+}
