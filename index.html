@@ -33,7 +33,33 @@
     },
     "telephone": "+12032746442",
     "image": "https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/6cf34430-3542-46a1-a1aa-4b6f1bd6e2c3/de8c94d8-887e-4625-825f-ec262dbc28df/1779989843_dwtdp4.png",
-    "servesCuisine": ["American", "Guatemalan", "Italian"]
+    "servesCuisine": ["American", "Guatemalan", "Italian"],
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "06:00",
+        "closes": "15:30"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "07:00",
+        "closes": "15:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Sunday",
+        "opens": "07:00",
+        "closes": "14:00"
+      }
+    ]
   }
   </script>
 <link href="css/colors_and_type.css" rel="stylesheet"/>
@@ -331,20 +357,17 @@
 <dl class="gd-hours__list">
 <div class="gd-hours__row">
 <dt>Mon – Fri</dt>
-<dd>6:00am – 3:30pm</dd>
+<dd>6:00 AM – 3:30 PM</dd>
 </div>
 <div class="gd-hours__row">
 <dt>Saturday</dt>
-<dd>Closed</dd>
+<dd>7:00 AM – 3:00 PM</dd>
 </div>
 <div class="gd-hours__row">
 <dt>Sunday</dt>
-<dd>Closed</dd>
+<dd>7:00 AM – 2:00 PM</dd>
 </div>
 </dl>
-<div style="font-size: 14px; text-align: center; padding: 0 var(--sp-4) var(--sp-4); color: var(--roast-soft);">
-<p style="margin:0; font-style: italic;">We will be closed Saturday, July 4th and Sunday, July 5th for the holiday.</p>
-</div>
 <div class="gd-hours__addr">
 <svg fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="18">
 <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
