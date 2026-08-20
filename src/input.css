@@ -1,3 +1,10 @@
 @import "tailwindcss";
 @source "../**/*.html";
 @source "../assets/**/*.js";
+
+@theme {
+  --color-primary: #B8362E;
+  --color-secondary: #4A2E1C;
+  --color-accent: #E5A833;
+  --font-heading: "Karla";
+}
