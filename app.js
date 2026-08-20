@@ -129,7 +129,7 @@ function renderFooter() {
       ${flagStrip('lg')}
 
       <div class="gd-footer__bottom">
-        <span>© 2024 Gus's Deli · Stamford, CT</span>
+        <span>© 2026 Gus's Deli · Stamford, CT</span>
         <span class="script">— Thanks, see you next time. —</span>
         <span class="gd-footer__social">
           <a href="https://www.instagram.com/gusdelistamford?igsh=MTR2bGx6bnRpcTRnMA==" target="_blank" rel="noopener noreferrer" aria-label="Instagram">${iconInstagram()}</a>
