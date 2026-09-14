@@ -30,7 +30,7 @@ function renderHeader() {
     <header class="gd-header" id="gd-header">
       <div class="gd-header__inner">
         <a href="#" class="gd-header__logo">
-          <img src="assets/img/1779989843_dwtdp4.webp" alt="Gus's Deli" class="gd-logo gd-logo--header" width="100" height="52" />
+          <img src="https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/6cf34430-3542-46a1-a1aa-4b6f1bd6e2c3/de8c94d8-887e-4625-825f-ec262dbc28df/1779989843_dwtdp4.png" alt="Gus's Deli" class="gd-logo gd-logo--header" width="100" height="52" />
         </a>
         <nav class="gd-header__nav" aria-label="Primary">
           <a href="#menu">Menu</a>
@@ -92,7 +92,7 @@ function renderFooter() {
     <footer class="gd-footer" id="about">
       <div class="gd-footer__top">
         <div class="gd-footer__brand">
-          <img src="assets/img/1779989843_dwtdp4.webp" alt="Gus's Deli" class="gd-logo gd-logo--footer" width="160" height="84" />
+          <img src="https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/6cf34430-3542-46a1-a1aa-4b6f1bd6e2c3/de8c94d8-887e-4625-825f-ec262dbc28df/1779989843_dwtdp4.png" alt="Gus's Deli" class="gd-logo gd-logo--footer" width="160" height="84" />
           <div class="gd-footer__tag">American · Guatemalan · Italian</div>
         </div>
         <nav class="gd-footer__cols" aria-label="Footer">
