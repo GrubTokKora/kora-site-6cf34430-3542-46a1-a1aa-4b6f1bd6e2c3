@@ -1,2 +1,4 @@
 User-agent: *
-Disallow: /
+Allow: /
+Disallow: /.kora/
+Sitemap: https://gus-s-deli-live.askkoraai.com/sitemap.xml
