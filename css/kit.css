@@ -1033,3 +1033,51 @@ button { font-family: inherit; }
   padding-bottom: var(--sp-2);
   border-bottom: 1.5px solid var(--stroke-1);
 }
+
+.gd-reviews {
+  padding: var(--sp-9) var(--sp-6);
+  background: var(--paper);
+  border-top: 1.5px solid var(--stroke-2);
+}
+.gd-reviews__inner {
+  max-width: var(--container, 1100px);
+  margin: 0 auto;
+  text-align: center;
+}
+.gd-reviews__title {
+  margin: var(--sp-2) 0 var(--sp-3);
+}
+.gd-reviews__link {
+  margin-bottom: var(--sp-6);
+}
+.gd-reviews__link a {
+  color: var(--deli-red);
+  font-weight: 600;
+}
+.gd-reviews__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: var(--sp-4);
+  text-align: left;
+}
+.gd-review-card {
+  padding: var(--sp-5);
+  margin: 0;
+}
+.gd-review-card p {
+  color: var(--fg-1);
+  line-height: 1.55;
+  margin: 0 0 var(--sp-3);
+}
+.gd-review-card__stars {
+  color: var(--mustard-deep);
+  letter-spacing: 0.1em;
+}
+.gd-review-card cite {
+  font-style: normal;
+  font-size: 0.85rem;
+  color: var(--fg-muted);
+}
+.gd-review-card cite a {
+  color: var(--deli-red);
+}
