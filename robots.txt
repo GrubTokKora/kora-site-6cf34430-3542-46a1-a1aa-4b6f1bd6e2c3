@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 Disallow: /.kora/
-Sitemap: https://gus-s-deli-live.askkoraai.com/sitemap.xml
+Sitemap: https://gusdelistamford.com/sitemap.xml
