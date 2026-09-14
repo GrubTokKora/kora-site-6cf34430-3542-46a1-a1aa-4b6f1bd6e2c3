@@ -99,19 +99,17 @@ function renderFooter() {
           <div>
             <h4>Menu</h4>
             <ul>
-              <li><a href="#">Sandwiches</a></li>
-              <li><a href="#">Bagels</a></li>
-              <li><a href="#">Salads</a></li>
-              <li><a href="#">Drinks</a></li>
+              <li><a href="#menu-sandwiches-salads">Sandwiches</a></li>
+              <li><a href="#menu-breakfast">Bagels</a></li>
+              <li><a href="#menu-sandwiches-salads">Salads</a></li>
+              <li><a href="#menu">Full Menu</a></li>
             </ul>
           </div>
           <div>
             <h4>Visit</h4>
             <ul>
-              <li><a href="#">Hours</a></li>
-              <li><a href="#">Directions</a></li>
-              <li><a href="#">Catering</a></li>
-              <li><a href="#">Delivery</a></li>
+              <li><a href="#visit">Hours</a></li>
+              <li><a href="https://www.google.com/maps/search/?api=1&amp;query=22+Belltown+Rd%2C+Stamford%2C+CT+06905" target="_blank" rel="noopener noreferrer">Directions</a></li>
             </ul>
           </div>
           <div>
