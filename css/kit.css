@@ -1081,3 +1081,33 @@ button { font-family: inherit; }
 .gd-review-card cite a {
   color: var(--deli-red);
 }
+
+.gd-faq {
+  padding: var(--sp-9) var(--sp-6);
+  background: var(--cream);
+  border-top: 1.5px solid var(--stroke-2);
+}
+.gd-faq__inner {
+  max-width: 42rem;
+  margin: 0 auto;
+  text-align: center;
+}
+.gd-faq__title {
+  margin: var(--sp-2) 0 var(--sp-6);
+}
+.gd-faq__list {
+  text-align: left;
+}
+.gd-faq__list details {
+  border-bottom: 1.5px solid var(--stroke-2);
+  padding: var(--sp-4) 0;
+}
+.gd-faq__list summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--fg-2);
+}
+.gd-faq__list p {
+  color: var(--fg-muted);
+  margin: var(--sp-3) 0 0;
+}
