@@ -142,11 +142,11 @@ renderHeader();
 renderFooter();
 
 function initFullMenu() {
-  const menuNav = document.querySelector('.gd-full-menu__nav');
+  const menuNav = document.querySelector('.kora-menu__switcher');
   if (!menuNav) return;
 
-  const navLinks = menuNav.querySelectorAll('.gd-full-menu__nav-link');
-  const sections = document.querySelectorAll('.gd-full-menu__category');
+  const navLinks = menuNav.querySelectorAll('a');
+  const sections = document.querySelectorAll('.kora-menu__menu');
 
   if (navLinks.length === 0 || sections.length === 0) return;
 
