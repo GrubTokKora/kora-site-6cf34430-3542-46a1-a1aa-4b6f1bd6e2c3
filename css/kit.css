@@ -898,7 +898,9 @@ button { font-family: inherit; }
   margin-top: var(--sp-5);
 }
 /* The menu is drawn by Kora into the kora:data:menu region; these rules give it this site's look. */
-.kora-menu {
+/* div.kora-menu, not .kora-menu: Kora's own menu stylesheet sets `.kora-menu { display: block }`
+   inside the region, after this file, and would win a tie. */
+div.kora-menu {
   display: grid;
   grid-template-columns: 240px 1fr;
   column-gap: var(--sp-7);
@@ -1019,7 +1021,7 @@ button { font-family: inherit; }
 
 @media (max-width: 960px) {
   .gd-full-menu { padding: var(--sp-8) var(--sp-4); }
-  .kora-menu { grid-template-columns: 1fr; }
+  div.kora-menu { grid-template-columns: 1fr; }
   .kora-menu .kora-menu__switcher {
     grid-column: 1;
     grid-row: auto;
